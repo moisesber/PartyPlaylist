@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.mashape.unirest</groupId>
-  <artifactId>unirest-java</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>br.partyplaylist</groupId>
+  <artifactId>PartyPlaylist</artifactId>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>unirest-java</name>
+  <name>PartyPlaylist</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,5 +21,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+  <dependency>
+    <groupId>com.mashape.unirest</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>1.4.7</version>
+  </dependency>
   </dependencies>
+  
 </project>
